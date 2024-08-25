@@ -1,0 +1,40 @@
+*{
+    margin: 2px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.card{
+    display: flex;
+    width: 80vw;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+}
+.heading h2,p{
+    padding: 3px 2px;
+    font-size: large;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 150px;
+    height: 80px;
+}
+.image .capsule{
+    background-color: rgb(57, 54, 54);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    z-index: 3px;
+    left: 140px;
+    opacity: 75%;
+    border-radius: 4px;
+}
+@media only screen and (min-width:365px) {
+    .image img{
+width:180px ;
+height: 100px;
+}
+}

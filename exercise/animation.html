@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.container{
+    height: 50vh;
+    width:70vw;
+    background-color: aquamarine;
+    border: 1px solid
+
+}
+.container{ 
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.box{
+    height:20px;
+    width:20px;
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 12px;
+    /* animation: kumar;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    animation-delay: 0.5s;
+    animation-direction:alternate-reverse; */
+    /* animation-fill-mode: forwards; */
+    animation: kumar 3s cubic-bezier(1,-0.24, 1, 1) 0s infinite alternate-reverse;
+}
+@keyframes kumar {
+    from{
+background-color: blue;
+    }
+    to{
+background-color: red;
+transform: translateY(345px);
+    }
+    
+}
+/* @keyframes kumar2 {
+    0%{
+        transform: rotate(20deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(120deg);
+    }
+    80%{
+        transform: rotate(200deg);
+    }
+    100%{
+        transform: rotate(320deg);
+    }
+} */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>

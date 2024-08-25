@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(0, 249, 249);
+    
+}
+.pic{
+    position: relative;
+    left:1vw;
+}
+td{
+    border:2px solid black;
+}
+th{
+    border:2px solid black;
+}
+a{
+    background-color: rgb(226, 232, 232);
+}
+.bg{
+ background-color: rgb(226, 232, 232);  
+}
+.color{
+    color: black;
+}
+#firstdiv{
+color: rgb(217, 221, 224);
+}
+.box{
+
+border: 2px solid blue;
+padding:10px;
+box-shadow: 5px 5px 15px 5px rgb(41, 32, 32);
+}
+.text p {
+    text-shadow: 4px 6px 2px rgb(212, 7, 7);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    /* list-style:lower-alpha; */
+    /* list-style-type: "🥹"; */
+   
+    list-style: none;
+    padding: 30px;
+    background-color: antiquewhite;
+   
+    list-style-position:inside;
+    border: 2px solid rgb(168, 117, 211)
+
+
+}
+.pic{
+    margin:5vw;
+    padding: 25px;
+    align-items: center;
+}
+.ov{
+    width:15vw;
+    height:28vh;
+    border:2px solid red;
+    white-space: nowrap;
+    overflow: auto;
+    /* text-overflow: ellipsis; */
+}
+.cov{
+    width:20vw;
+    height:28vh;
+    border:2px solid red; 
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* we can also write overflow: hidden auto instead of that specifying in x and y axis; */
+}
+.po{
+    margin: 1px;
+    height: 20vh;
+    width: 80vw;
+    border: 2px solid blue;
+}
+.parent{
+    /* position:absolute; */
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid purple;
+}
+.box1{
+    background-color: rgb(61, 91, 61);
+    position: sticky;
+    top: 0px;
+}
+.box2{
+    background-color: pink;
+    /* position: relative;
+    top:5px; */
+}
+.box3{
+    background-color: purple;
+    /* top:2px;
+    position: absolute; */
+}
+.box4{
+    background-color: rgb(84, 74, 84);
+        /* position: fixed;
+        bottom: 2vh;
+         left: 78vh;
+         height: 55px;
+         width:40px */
+}
